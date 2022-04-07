@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Grow Green</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body class="d-flex flex-column">
+        <main class="flex-shrink-0">
+
+        <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="index.html">Grow Green</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link"  href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pricing.html">Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Portfolio
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                 </ul>
+                            </li>
+
+                        </ul>
+                        <div class="mx-2">
+                            <button class="btn btn-danger" data-toggle="modal"  data-target="#loginModal">Login</button>
+                            <button class="btn btn-danger" data-toggle="modal" data-target="#signupModal">SignUp</button>
+                        </div>
+                    </div>
+            </nav>
+
+    <!-- Login Modal -->
+                <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Login to iCoder</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+  
+    <!-- Sign Up Modal -->
+                <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Get an iCoder Account</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="form-group">
+                                <label for="cexampleInputPassword1">Confirm Password</label>
+                                <input type="password" class="form-control" id="cexampleInputPassword1">
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary">Creat Account</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+        <!-- Navbar -->
+
+        <!-- About section-->
+        <div class="contioner my-4">
+                <div class="container marketing">
+
+                        <div class="row featurette d-flex justify-content-center align-items-center">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading">ORGANIC VEGETABLES<span class="text-muted">.</span></h2>
+                                <p class="lead">Organic foods often have more beneficial nutrients, such as antioxidants,
+                                    than their conventionally-grown counterparts and people with allergies to
+                                    foods, chemicals, or preservatives often find their symptoms lessen or go
+                                    away when they eat only organic foods. Organic produce contains fewer pesticides.</p>
+                            </div>
+                            <div class="col-md-5">
+                                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                                    src="https://source.unsplash.com/400x400/?vegetables" alt="">
+                            </div>
+                        </div>
+
+                        <hr class="featurette-divider">
+
+                        <div class="row featurette d-flex justify-content-center align-items-center">
+                            <div class="col-md-7 order-md-2">
+                                <h2 class="featurette-heading">ORGANIC FRUITS<span class="text-muted">.</span></h2>
+                                <p class="lead">We know that organic fruits and vegetables are better for our bodies and the
+                                    planet,
+                                    along with the farmers that grow them and the overall food industry.
+                                    The more foods are produced naturally in an organic manner without chemicals and pesticides,
+                                    the more everyone benefits. Plus, there’s nothing like taking a taste of a delicious apple
+                                    that has no waxy coating or slicing into a cucumber that doesn’t have that slimy, waxy
+                                    finish.
+                                    But organic isn’t always easy to buy on a budget, so that’s why choosing organic foods from
+                                    “The Dirty Dozen” list each year is so important.</p>    
+                            </div>
+                            <div class="col-md-5 order-md-1">
+                                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                                    src="https://source.unsplash.com/400x400/? fruits" alt="">
+                            </div>
+                        </div>
+
+                        <hr class="featurette-divider">
+
+                        <div class="row featurette d-flex justify-content-center align-items-center">
+                            <div class="col-md-7">
+                                <h2 class="featurette-heading">FLOWER POT<span class="text-muted">.</span></h2>
+                                <pclass="lead">A flowerpot, flower pot, planter, planterette, or alternatively plant pot is a
+                                    container in which flowers and
+                                    other plants are cultivated and displayed.Flowerpots are now often also made from plastic,
+                                    metal, wood, stone, or sometimes
+                                    biodegradable material.Plants are essential for any ecosystem. They provide all the energy
+                                    for the ecosystem, because they can get energy directly from sunlight. They use a process
+                                    called
+                                    photosynthesis to use energy from the sun to grow and reproduce. </p>
+                            </div>
+                            <div class="col-md-5">
+                                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                                    src="https://source.unsplash.com/400x400/? flower pot,plants" alt="">
+                                </svg>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        <!-- About section-->
+
+        <!-- Team Section -->
+            <section class="py-5 bg-light">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="fw-bolder">Our team</h2>
+                        <p class="lead fw-normal text-muted mb-5">Dedicated to quality and your success</p>
+                    </div>
+                    <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
+                        <div class="col mb-5 mb-5 mb-xl-0">
+                            <div class="text-center">
+                                <img class="img-fluid rounded-circle mb-4 px-4" src="img/man.png" alt="..." />
+                                <h5 class="fw-bolder">Ibbie Eckart</h5>
+                                <div class="fst-italic text-muted">CEO</div>
+                            </div>
+                        </div>
+                        <div class="col mb-5 mb-5 mb-xl-0">
+                            <div class="text-center">
+                                <img class="img-fluid rounded-circle mb-4 px-4" src="img/man.png" alt="..." />
+                                <h5 class="fw-bolder">Arden Vasek</h5>
+                                <div class="fst-italic text-muted">Factory  Manager</div>
+                            </div>
+                        </div>
+                        <div class="col mb-5 mb-5 mb-sm-0">
+                            <div class="text-center">
+                                <img class="img-fluid rounded-circle mb-4 px-4" src="img/man.png" alt="..." />
+                                <h5 class="fw-bolder">Toribio Nerthus</h5>
+                                <div class="fst-italic text-muted">Marketing Manager</div>
+                            </div>
+                        </div>
+                        <div class="col mb-5 mb-5 mb-sm-0">
+                            <div class="text-center">
+                                <img class="img-fluid rounded-circle mb-4 px-4" src="img/man.png" alt="..." />
+                                <h5 class="fw-bolder">Toribio Nerthus</h5>
+                                <div class="fst-italic text-muted">Scientist</div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+        <!-- Team Section -->
+        </main><br>     
+
+        <!-- Footer-->
+            <footer class="container">
+                <p class="float-right"><a href="#">Back to top</a></p>
+                <p>© 2018-2021 Grow Green, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+            </footer>
+        <!-- Footer-->
+
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+
+        <script src="js/review.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <!-- Scripts -->
+        
+    </body>
+</html>
